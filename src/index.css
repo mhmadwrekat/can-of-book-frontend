@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#font{
+  font-weight : bold ;
+  font-family : 'Courgette' , cursive ;
+}
+#fontt{
+  font-family : 'Courgette' , cursive ;
+}
+#fontFoter{
+  font-family : 'Courgette' , cursive ;
+  font-size: 12px ;
+  color : rgb(223, 146, 5) ;
+
+}
+#fontHeader{
+  color : rgb(223, 146, 5) ;
+  font-family : 'Courgette' , cursive ;
+  font-size: 13px ;
+
+}
