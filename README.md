@@ -37,3 +37,36 @@ Finish time: 8:40 pm .
 Actual time needed to complete: 2:20 Hours .
 
 ---
+Name of feature: **2** Create .
+
+Estimate of time needed to complete: 2 hours .
+
+Start time : 10:00 pm .
+
+Finish time: 12:10 am . 
+
+Actual time needed to complete: 2:10 Hours .
+
+---
+Name of feature: **3** Delete .
+
+Estimate of time needed to complete: 3 hours .
+
+Start time : 1:00 am .
+
+Finish time: 3:40 am . 
+
+Actual time needed to complete: 2:40 Hours .
+
+---
+Name of feature: **4** Update .
+
+Estimate of time needed to complete: 2 hours .
+
+Start time : 5:10 pm .
+
+Finish time: 7:20 pm . 
+
+Actual time needed to complete: 2:10 Hours .
+
+---

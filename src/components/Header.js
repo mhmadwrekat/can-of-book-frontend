@@ -11,7 +11,7 @@ export class Header extends Component {
                         </Navbar.Brand>
                         <p id='fontHeader'>They have the power to enlighten,educate, entertain, heal, and help us grow .</p>
                     </Container>
-                </Navbar>    
+                </Navbar>
                 <br></br>
                 <br></br>
             </div>
