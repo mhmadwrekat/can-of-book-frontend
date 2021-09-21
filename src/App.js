@@ -20,7 +20,7 @@ export class App extends Component {
   }
   componentDidMount = () => {
     console.log(REACT_APP_BACKEND_URL);
-    Axios.get(`https://${REACT_APP_BACKEND_URL}`).then(res => {
+    Axios.get(`https://${REACT_APP_BACKEND_URL}/data`).then(res => {
       this.setState({
         data: res.data
       })
