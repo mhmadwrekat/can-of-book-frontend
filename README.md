@@ -15,7 +15,6 @@
   * bootstrap 
 
 
-
 * **Credit and Collaborations :** 
     * [Wasem Idrees](https://github.com/WasemIdres) 
     * [locationiq](locationiq.com)

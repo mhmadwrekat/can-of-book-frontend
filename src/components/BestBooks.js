@@ -1,22 +1,27 @@
-import React, { Component } from 'react'
-
-/*
-<p>{this.state.title}</p>
-                <p>{this.state.description}</p>
-                <p>{this.state.status}</p>
-                <p>{this.state.email}</p>
-*/
+import React, { Component } from 'react';
+import {
+    Button, Card, ListGroup
+} from 'react-bootstrap';
 export class BestBooks extends Component {
-
     render() {
         return (
-            <>
-                <h3>{this.props.title}</h3>
-                <p>{this.props.description}</p>
-                <p>{this.props.status}</p>
-                <a href="{this.props.email}" >{this.props.email}</a>
-                <hr></hr>
-            </>
+            <section class='section'>
+                <div>
+                    <Card style={{ width: '18rem' }}>
+                        <Card.Body>
+                            <Card.Title>{this.props.title}</Card.Title>
+                            <Card.Text>{this.props.description}
+                            </Card.Text>
+                        </Card.Body>
+                        <ListGroup.Item>
+                            <Card.Link href="{this.props.email}">Author Email</Card.Link>
+                        </ListGroup.Item>
+                        <ListGroup.Item>
+                            <Button variant="danger" onClick={() => this.props.handleDelete(this.props.bookId)}>Delete</Button>
+                        </ListGroup.Item>
+                    </Card>
+                </div>
+            </section>
         )
     }
 }
