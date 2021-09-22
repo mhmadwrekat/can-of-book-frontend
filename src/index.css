@@ -11,6 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+#logout:hover{
+  color : purple ;
+  background-color: orange ;
+  cursor: grab;
+  font-weight : bold ;
+}
+#rou:hover{
+  color : purple ;
+  background-color: orange ;
+  cursor:progress ;
+}
+#rou{
+  color : black ;
+  font-weight : bold ;
+  font-family : 'Courgette' , cursive ;
+}
 #font{
   font-weight : bold ;
   font-family : 'Courgette' , cursive ;
@@ -21,7 +37,7 @@ code {
 #fontFoter{
   font-family : 'Courgette' , cursive ;
   font-size: 12px ;
-  color : rgb(231, 208, 2) ;
+  color : orange ;
 }
 .section{
   margin : 10px ;
@@ -32,9 +48,20 @@ code {
 text-align: center;
 }
 #fontHeader{
-  color : rgb(231, 208, 2) ;
+  color : orange ;
   font-family : 'Courgette' , cursive ;
 }
+#ADD{
+font-weight : bold ;
+font-family : 'Courgette' , cursive ;
+}
+#ADD:hover{
+  color : purple ;
+  background-color: orange ;
+  cursor: grab;
+  font-weight : bold ;
+}
 .Bu{
-padding-left : 10% ;
+  float : right ;
+  padding-right : 20% ;
 }

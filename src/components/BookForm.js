@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import {
-    Form, Row, Col, InputGroup, FormControl, Button, FloatingLabel
-} from 'react-bootstrap';
+import { Form, Row, Col, InputGroup, FormControl, Button, FloatingLabel } from 'react-bootstrap';
 export class BookForm extends Component {
     render() {
         return (

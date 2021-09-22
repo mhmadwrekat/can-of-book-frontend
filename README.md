@@ -70,3 +70,14 @@ Finish time: 7:20 pm .
 Actual time needed to complete: 2:10 Hours .
 
 ---
+Name of feature: **5** Authentication .
+
+Estimate of time needed to complete: 5 hours .
+
+Start time : 3:10 pm .
+
+Finish time: 7:20 pm . 
+
+Actual time needed to complete: 5:10 Hours .
+
+---

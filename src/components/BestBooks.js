@@ -14,7 +14,7 @@ export class BestBooks extends Component {
                             </Card.Text>
                         </Card.Body>
                         <ListGroup.Item>
-                            <Card.Link href="{this.props.email}">Author Email</Card.Link>
+                            <Card.Link href={this.props.email}>{this.props.email}</Card.Link>
                         </ListGroup.Item>
                         <ListGroup.Item>
                             <pre><Button variant="success" onClick={() => this.props.handleUpdate(this.props.bookId, this.props.title, this.props.description, this.props.email)}>Update</Button>   <Button variant="danger" onClick={() => this.props.handleDelete(this.props.bookId)}>Delete</Button></pre>
