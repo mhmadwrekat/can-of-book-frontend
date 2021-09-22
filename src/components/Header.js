@@ -18,10 +18,10 @@ export class Header extends Component {
                     </Navbar>
                     <Nav justify variant="tabs">
                         <Nav.Item as="li">
-                            <Nav.Link id='rou' tag={Link} to="/first" href="/profile">Profile</Nav.Link>
+                            <Nav.Link id='rou' tag={Link} to="/Profile" href="/Profile">Profile</Nav.Link>
                         </Nav.Item>
                         <Nav.Item as="li">
-                            <Nav.Link id='rou' tag={Link} to="/second" href="/BestBook">Best Book</Nav.Link>
+                            <Nav.Link id='rou' tag={Link} to="/BestBook" href="/BestBook">Best Book</Nav.Link>
                         </Nav.Item>
                     </Nav><br></br><br></br></> : <>
                     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
